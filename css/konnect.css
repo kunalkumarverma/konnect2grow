@@ -1,0 +1,203 @@
+<style>
+body{
+	font-size:22px;
+	font-family:arial;
+	margin:0px;
+	padding:5px;
+	background-color:lightgrey;}
+
+input{
+font-family: Times New Roman;
+font-size: 18px;
+color: #153E7E;
+padding: 6px 6px;
+}
+.sdbutton{
+font-family: Times New Roman;
+font-size: 24px;
+padding: 15px 7px;
+
+color: white;
+background-image: linear-gradient(to bottom,#ff2424, #ad0000);
+border-radius:10px;
+width:300px;
+Box-shadow: 0px 8px 16px 0px grey;
+
+}
+.acbutton{
+font-family: Times New Roman;
+font-size: 22px;
+color: white;
+padding: 15px 7px;
+background-image: linear-gradient(to bottom,#04AA6D, #24ffff);
+border-radius:10px;
+width:300px;
+Box-shadow: 0px 8px 16px 0px gray;
+
+}
+
+.login{
+font-family: Times New Roman;
+font-size: 18px;
+color: grey;
+background-color:grey;
+background-image: linear-gradient(to right,grey, lightgrey);
+text-indent: 0px;
+border-top : 4px groove #2e0000;
+border-bottom : 4px groove #2e0000;
+border-left : 4px groove #2e0000;
+border-right : 4px groove #2e0000;
+Box-shadow: 0px 8px 16px 0px #ad0000;
+border-radius:10px;
+opacity:0.9;
+}
+
+.login1{
+font-family: Times New Roman;
+font-size: 18px;
+color: grey;
+background-color:grey;
+background-image: linear-gradient(to right,grey, lightgrey);
+text-indent: 0px;
+border-top : 4px groove grey;
+border-bottom : 4px groove grey;
+border-left : 4px groove grey;
+border-right : 4px groove grey;
+Box-shadow: 0px 8px 16px 0px teal;
+border-radius:10px;
+}
+
+.login2{
+font-family: Times New Roman;
+font-size: 20px;
+color: white;
+background-color:grey;
+background-image: linear-gradient(to right,#808080 , black);
+text-indent: 2px;
+border-top : 2px groove blue;
+border-bottom : 2px groove blue;
+border-left : 2px groove blue;
+border-right : 2px groove blue;
+Box-shadow: 0px 8px 16px 0px darkblue;
+border-radius:10px;
+}
+.scrolldiv{
+
+overflow:scroll;
+height:auto;
+width:540px;
+margin:auto;
+white-space:nowrap;
+}
+
+
+.SEEDED{
+//background-color:#04AA6D;
+
+}
+.ASSIGN{
+background-color:#04AA6D;
+
+}
+
+
+.bg1{
+font-family: Times New Roman;
+font-size: 24px;
+color: Navy;
+background-color:#04AA6D;
+background-image: linear-gradient(to right, #dec8ab, #c7a170);
+text-indent: 20px;
+border-bottom : 4px groove green;
+text-align:center;
+}
+.bg2{
+font-family: Times New Roman;
+font-size: 20px;
+color: White;
+background-color:grey;
+background-image: linear-gradient(to right, #575757, lightgrey);
+text-indent: 20px;
+border-bottom : 4px groove grey;
+text-align:center;
+}
+
+.bghead{
+font-family: Times New Roman;
+font-size: 30px;
+color: white;
+font-weight:1500;
+text-align:center;
+background-image: linear-gradient(to bottom,#570000, #ff2424);
+
+}
+.bghead2{
+font-family: Times New Roman;
+font-size: 30px;
+color: white;
+font-weight:1500;
+text-align:center;
+background-image: linear-gradient(to bottom,#04AA6D, #24ffff);
+
+}
+
+
+.button1{
+font-family: Times New Roman;
+font-size: 18px;
+color: White;
+background-color:#04AA6D;
+background-image: radial-gradient(grey,white);
+text-indent: 0px;
+width:300px;
+padding: 15px 7px;
+text-align:center;
+}
+a:hover{
+  //background-color: #ddd;
+  color: #24ffff;
+}
+.maindv{
+color: #153E7E;
+border:1px solid grey;
+
+background: url(../images/bg3.png) top repeat-y;	
+Box-shadow: 0px 8px 16px 0px navy;
+width:600px;
+margin:auto;
+height:auto;
+
+}
+.tableds{
+font-family: Times New Roman;
+font-size: 32px;
+align:center;
+color: white;
+padding: 8px 4px;
+background-color:grey;
+//background-image: linear-gradient(to right,grey, lightgrey);
+text-indent: 5px;
+border-top : 4px groove darkblue;
+border-bottom : 4px groove darkblue;
+border-left : 4px groove darkblue;
+border-right : 4px groove darkblue;
+border-radius:10px;
+Box-shadow: 0px 8px 16px 0px darkblue;
+height:100px;
+}
+.th1{
+font-family: Times New Roman;
+font-size: 14px;
+color: white;
+background-image: linear-gradient(to bottom,grey, black);
+
+}
+.btmtr{
+font-family: Times New Roman;
+font-size: 14px;
+color: white;
+background-image: linear-gradient(to bottom,grey, blur);
+
+}
+
+</style>

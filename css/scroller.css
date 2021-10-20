@@ -1,0 +1,66 @@
+#Body {
+	BACKGROUND: #fff no-repeat center 100px
+}
+.DNNAlignleft {
+	TEXT-ALIGN: left
+}
+#redtab {
+	DISPLAY: block; FONT-SIZE: 14px; WIDTH: 274px; COLOR: #fff; HEIGHT: 25px
+}
+.ScrollContainer {
+	 TEXT-ALIGN: left
+}
+#Scroller-1 {
+	OVERFLOW: hidden; WIDTH: 286px; POSITION: relative; TOP: -390px; HEIGHT: 390px
+}
+.Scroller-Container {
+	FONT-SIZE: 11px; LEFT: 0px; COLOR: #4b4b4b; POSITION: relative; TOP: 0px; TEXT-ALIGN: left
+}
+#scroll-text {
+	FLOAT: left; WIDTH: 100%
+}
+#scroll-text UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#scroll-text UL LI {
+	FLOAT: left; PADDING-BOTTOM: 14px; MARGIN: 0px; WIDTH: 100%; LIST-STYLE-TYPE: none
+}
+#Scrollbar-Container {
+	POSITION: relative
+}
+.Scrollbar-Track {
+	MARGIN-TOP: 20px; BACKGROUND: url(../images/scrollbar_track.gif) center 50%; MARGIN-LEFT: 296px; WIDTH: 19px; POSITION: relative; HEIGHT: 390px
+}
+.Scrollbar-Handle {
+	PADDING-LEFT: 6px; WIDTH: 8px; POSITION: relative; HEIGHT: 25px
+}
+.datetxt {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #4d4948; FONT-FAMILY: Georgia; TEXT-DECORATION: none
+}
+A.datetxt:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #4d4948; FONT-FAMILY: Georgia; TEXT-DECORATION: none
+}
+#ScrollTop {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.news {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #a9a8a8; FONT-FAMILY: Georgia; TEXT-DECORATION: none
+}
+A.news:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #a9a8a8; FONT-FAMILY: Georgia; TEXT-DECORATION: none
+}
+A.news:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #a9a8a8; FONT-FAMILY: Georgia; TEXT-DECORATION: none
+}
+A.news:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #a9a8a8; FONT-FAMILY: Georgia; TEXT-DECORATION: none
+}
+A.news:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #a9a8a8; FONT-FAMILY: Georgia; TEXT-DECORATION: underline
+}
+.newssep {
+	HEIGHT: 6px
+}
+.scrollbox {
+	CLEAR: both; MARGIN-TOP: 2px; FLOAT: left; OVERFLOW: hidden; WIDTH: 310px; HEIGHT: 420px
+}

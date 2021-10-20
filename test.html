@@ -1,0 +1,141 @@
+<html>
+<head><title>
+K2g</title>
+</head>
+<meta name='viewport' content='Width=device-width, initial-scale=1'>
+
+<style>
+
+.col {
+    Margin-top: 12px;
+    Display: inline-block;
+    Position: relative;
+	background: url(./images/title.png) center no-repeat;	
+}
+.textbox {
+    Width: 300px;
+    Padding: 4px 2px;
+    Font: 24px/27px “Lato”, Arial, sans-serif;
+    Color: #333;
+    Box-sizing: border-box;
+    Letter-spacing: 1px;
+    Border:0;
+    Border: 1px solid #ccc;
+    Transition: 0.4s;
+    Background: transparent;
+}
+.textbox ~ .focus-border:before,
+.textbox ~ .focus-border:after {
+    Content: “”;
+    Position: absolute;
+    Top: -1px;
+    Left: 50%;
+    Width: 0;
+    Height: 2px;
+    Background-color: #3399FF;
+    Transition: 0.4s;
+}
+.textbox ~ .focus-border:after {
+    Top: auto;
+    Bottom: 0;
+}
+.textbox ~ .focus-border i:before,
+.textbox ~ .focus-border i:after {
+    Content: "";
+    Position: absolute;
+    Top: 50%;
+    Left: 0;
+    Width: 2px;
+    Height: 0;
+    Background-color: #3399FF;
+    Transition: 0.6s;
+}
+.textbox:focus ~ .focus-border:before,
+.textbox:focus ~ .focus-border:after,
+.has-content.textbox ~ .focus-border:before,
+.has-content.textbox ~ .focus-border:after {
+    Left: 0;
+    Width: 100%;
+    Transition: 0.4s;
+}
+.textbox:focus ~ .focus-border i:before,
+.textbox:focus ~ .focus-border i:after,
+.has-content.textbox ~ .focus-border i:before,
+.has-content.textbox ~ .focus-border i:after {
+    Top: -1px;
+    Height: 100%;
+    Transition: 0.6s;
+}
+.textbox ~ label {
+    Text-align: left;
+    Position: absolute;
+    Left: 14px;
+    Width: 100%;
+    Top: 10px;
+    Color: #aaa;
+    Transition: 0.3s;
+    z-index: -1;
+    letter-spacing: 0.5px;
+}
+.textbox:focus ~ label,
+.has-content.textbox ~ label {
+    Top: -18px;
+    Left: 0;
+    Font-size: 18px;
+    Color: #3399FF;
+    Transition: 0.3s;
+}
+.textbox:focus {
+    Outline: none;
+}
+</style>
+<body align=center bgcolor=whitesmoke>
+<table width=900px border=1px bgcolor=grey height=100>
+<tr><td></td></tr>
+</table>
+</br></br>
+<div class='col'>
+<input type='text' size='20' class='textbox' name='name'>
+<label>Full Name</label>
+<span class='focus-border'>
+<i></i></span></div>
+<br><br>
+<div class='col'>
+<input type='text' size='20' class='textbox' name='name'>
+<label>Mobile No</label>
+<span class='focus-border'>
+<i></i></span></div>
+<br><br>
+<div class='col'>
+<input type='text' size='20' class='textbox' name='name'>
+<label>Mobile No</label>
+<span class='focus-border'>
+<i></i></span></div>
+<br><br>
+<div class='col'>
+<input type='text' size='20' class='textbox' name='name'>
+<label>Mobile No</label>
+<span class='focus-border'>
+<i></i></span></div>
+<br><br>
+<div class='col'>
+<input type='text' size='20' class='textbox' name='name'>
+<label>Mobile No</label>
+<span class='focus-border'>
+<i></i></span></div>
+<br><br>
+<div class='col'>
+<label>Name</label><br>
+<input type='text' size='30' class='textbox' name='name'>
+<label>Mobile No</label>
+<span class='focus-border'>
+<i></i></span></div>
+<br><br>
+<input type=button value='submit'>
+<table width=900px border=1px bgcolor=grey align=center height=100>
+<tr><td></td></tr>
+</table>
+
+</body>
+
+</html>
